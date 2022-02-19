@@ -34,6 +34,7 @@
 </script>
 <%
     DAOImplMysql daoImplMysql = new DAOImplMysql();
+
 %>
 <!-- banner part start-->
     <section class="banner_part">
