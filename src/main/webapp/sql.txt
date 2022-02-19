@@ -1,0 +1,1 @@
+   $sql = "SELECT * from hotel where no45 not in (SELECT DISTINCT room_no45 FROM `hotel_reg` WHERE startday45 BETWEEN '$date1' and '$date2' or endday45 between '$date1' and '$date2')";
